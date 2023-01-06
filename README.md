@@ -4,7 +4,7 @@
 This is a simple Google image scraper that uses selenium to extract image urls from Google. 
 I made a main.py file, so you can just use the scraping file as a library.
 
-Blog post about the process (part 1) can be found [here](blog.jhmejia.com).
+Blog post about the process (part 1) can be found [here](https://blog.jhmejia.com).
 
 
 ## Demo
@@ -41,6 +41,6 @@ Run the file
 
 ## Appendix
 
-You can find more information about it at [my blog](blog.jhmejia.com) to understand how it works, and how you can use this process for similar scrapers in the future.
+You can find more information about it at [my blog](https://blog.jhmejia.com) to understand how it works, and how you can use this process for similar scrapers in the future.
 
 Remember not to use this for copyright infringement! Standard rules apply.
