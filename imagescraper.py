@@ -3,7 +3,7 @@ import time
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import shutil
+import shutil #pip install shutil
 from glob import glob
 
 ##############
