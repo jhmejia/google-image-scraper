@@ -3,10 +3,7 @@ from get_terms import *
 from combine_images import *
 
 
-#########################
-# Paramaters to change
-#########################
-
+# Get the search terms, title term, output path, and number of images from the user
 search_terms, title_term, output_path, number_of_images, combine_images = get_terms()
 
 dirs = glob(output_path + "*")
@@ -23,4 +20,3 @@ if combine_images:
     # Open the quilt
     quilt = Image.open('my_quilt.png')
     quilt.show()
-    
