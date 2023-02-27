@@ -27,9 +27,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  pip install selenium
-  pip install requests
-  pip install shutil
+  pip install -r requirements.txt
 ```
 
 Run the file
