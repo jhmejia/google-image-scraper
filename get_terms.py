@@ -18,7 +18,7 @@ class GetTermsGui:
         self.title_term = ""
         self.output_path = ""
         self.number_of_images = 0
-        self.make_quilt = False
+        self.make_quilt = tk.BooleanVar(value=False)
 
         self.create_widgets()
 
@@ -68,7 +68,9 @@ class GetTermsGui:
         # Get the number of images
         self.number_of_images = int(self.number_of_images_entry.get())
 
-        self.combine_images = self.make_quilt
+        # Get the checkbox value
+        self.combine_images = self.make_quilt.get()
+    
 
         # Check if the output path exists
         if not os.path.exists(self.output_path):
