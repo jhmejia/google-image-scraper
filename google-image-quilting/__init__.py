@@ -1,7 +1,11 @@
-from imagescraper import *
-from get_terms import *
-from combine_images import *
+from google_image_quilting.imagescraper import *
+from google_image_quilting.get_terms import *
+from google_image_quilting.combine_images import *
+from google_image_quilting.make_query import *
 
+make_img_query()
+
+print("MEOW")
 
 # Get the search terms, title term, output path, and number of images from the user
 search_terms, title_term, output_path, number_of_images, combine_images = get_terms()

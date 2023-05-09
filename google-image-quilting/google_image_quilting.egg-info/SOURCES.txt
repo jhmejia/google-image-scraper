@@ -1,0 +1,11 @@
+setup.py
+google_image_quilting/__init__.py
+google_image_quilting/combine_images.py
+google_image_quilting/get_terms.py
+google_image_quilting/imagescraper.py
+google_image_quilting/make_query.py
+google_image_quilting.egg-info/PKG-INFO
+google_image_quilting.egg-info/SOURCES.txt
+google_image_quilting.egg-info/dependency_links.txt
+google_image_quilting.egg-info/requires.txt
+google_image_quilting.egg-info/top_level.txt
